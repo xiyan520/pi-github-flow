@@ -1,0 +1,28 @@
+{
+  "name": "pi-github-flow",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "pi-github-flow: 19 GitHub agent tools for pi, backed by the host gh CLI. Ported from dsh-github-flow.",
+  "keywords": [
+    "pi-extension",
+    "pi-package",
+    "github",
+    "gh-cli",
+    "agent-tools"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xiyan520/pi-github-flow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiyan520/pi-github-flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xiyan520/pi-github-flow/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
